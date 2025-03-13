@@ -2,9 +2,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Poker 51</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Poker con Amigos</h1>
+        <div id="setup">
+            <button id="create-room" class="create-room">Crear Sala</button>
+            <div class="join-room">
+                <input type="text" id="room-code" placeholder="Código de sala">
+                <button id="join-room" class="join-button">Unirse</button>
+            </div>
+        </div>
+        <div id="room-info" class="room-info" style="display: none;">
+            <p id="room-code-display" class="room-code"></p>
+            <p class="instructions">Comparte este código con tus amigos</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
